@@ -1,0 +1,53 @@
+=============== May 26, 2021 (CDT) ===============
+21:42:59.216793 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:42:59.257658 db@open opening
+21:42:59.258686 version@stat F·[] S·0B[] Sc·[]
+21:42:59.300543 db@janitor F·2 G·0
+21:42:59.300543 db@open done T·42.8849ms
+21:44:50.364775 db@close closing
+21:44:50.364775 db@close done T·0s
+=============== May 26, 2021 (CDT) ===============
+21:45:02.624387 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:45:02.625381 version@stat F·[] S·0B[] Sc·[]
+21:45:02.625381 db@open opening
+21:45:02.625381 journal@recovery F·1
+21:45:02.625381 journal@recovery recovering @1
+21:45:02.657568 memdb@flush created L0@2 N·481 S·16KiB "loc..seq,v23":"version,v1"
+21:45:02.657568 version@stat F·[1] S·16KiB[16KiB] Sc·[0.25]
+21:45:02.731385 db@janitor F·3 G·0
+21:45:02.731385 db@open done T·106.0047ms
+21:46:20.738621 db@close closing
+21:46:20.739621 db@close done T·999.5µs
+=============== May 26, 2021 (CDT) ===============
+21:47:48.646966 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:47:48.647988 version@stat F·[1] S·16KiB[16KiB] Sc·[0.25]
+21:47:48.647988 db@open opening
+21:47:48.647988 journal@recovery F·1
+21:47:48.648955 journal@recovery recovering @3
+21:47:48.672922 memdb@flush created L0@5 N·435 S·15KiB "loc..seq,v492":"n:\xfd..ong,v513"
+21:47:48.673921 version@stat F·[2] S·31KiB[31KiB] Sc·[0.50]
+21:47:48.822730 db@janitor F·4 G·0
+21:47:48.822730 db@open done T·174.7426ms
+21:47:52.631176 table@compaction L0·2 -> L1·0 S·31KiB Q·947
+21:47:53.254774 table@build created L1@8 N·847 S·30KiB "loc..seq,v492":"version,v1"
+21:47:53.255724 version@stat F·[0 1] S·30KiB[0B 30KiB] Sc·[0.00 0.00]
+21:47:53.301477 table@compaction committed F-1 S-1KiB Ke·0 D·69 T·670.3008ms
+21:47:53.303477 table@remove removed @2
+21:48:13.439382 db@close closing
+21:48:13.439382 db@close done T·0s
+=============== May 26, 2021 (CDT) ===============
+21:51:10.869106 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:51:10.870103 version@stat F·[0 1] S·30KiB[0B 30KiB] Sc·[0.00 0.00]
+21:51:10.870103 db@open opening
+21:51:10.870103 journal@recovery F·1
+21:51:10.871101 journal@recovery recovering @6
+21:51:10.923270 memdb@flush created L0@9 N·161 S·5KiB "loc..seq,v931":"n:\xfd..ong,v981"
+21:51:10.924289 version@stat F·[1 1] S·35KiB[5KiB 30KiB] Sc·[0.25 0.00]
+21:51:10.990966 db@janitor F·5 G·1
+21:51:10.990966 db@janitor removing table-5
+21:51:10.990966 db@open done T·120.8633ms
+21:51:15.407623 table@compaction L0·1 -> L1·1 S·35KiB Q·1115
+21:51:16.595615 table@build created L1@12 N·979 S·34KiB "loc..seq,v931":"version,v1"
+21:51:16.595615 version@stat F·[0 1] S·34KiB[0B 34KiB] Sc·[0.00 0.00]
+21:51:16.664002 table@compaction committed F-1 S-1KiB Ke·0 D·29 T·1.2563791s
+21:51:16.664002 table@remove removed @8
